@@ -1,0 +1,247 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.site-header {
+  background: #4971d0;
+  color: #fff;
+  padding: 15px 5%;
+  box-shadow: 0 1px 3px #333;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  width: 20%;
+}
+
+.site-header a {
+margin-left: auto;
+margin-right: auto;
+}
+
+.main-nav  {
+
+}
+
+.main-nav ul {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+.main-nav ul li {
+  display:inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: arial,sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.main img {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-family: arial,sans-serif;
+}
+
+.about h2 {
+  color: black;
+  font-size: 30px;
+}
+
+.about p {
+  font-size: 20px;
+  color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.about img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.safety {
+
+  margin-bottom: 550px;
+}
+
+.safety h2 {
+  color: Black;
+  font-family: arial,sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-right: 100px;
+  margin-right: 50px;
+}
+
+.safety p {
+  font-size: 20px;
+  color: black;
+  font-family: arial,sans-serif;
+  text-align: center;
+  margin-left: 160px;
+  margin-right: 80px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 70px;
+}
+
+.safety img {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.safety-img {
+  float: left;
+  width: 40%;
+  margin-top: 10px;
+}
+
+.about-us {
+  text-align: center;
+  margin: 15px 5%;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.about-us h2 {
+  font-size: 25px;
+  font-family: arial,sans-serif;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.about-us p {
+  font-size: 20px;
+  color: black;
+  font-family: arial,sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.street-lighting {
+  float:left;
+}
+
+.traffic-signals {
+  float:left;
+}
+
+.highway-signs {
+  float: left;
+}
+
+.projects {
+  text-align: center;
+  margin: 15px 5%;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.projects div {
+  padding: 1%;
+  width: 30%;
+  font-family: arial, sans-serif;
+
+}
+
+.projects h1 {
+  font-size: 25px;
+  font-family: arial, sans-serif;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.projects p {
+  font-size: 20px;
+  color: black;
+  font-family: arial, sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.site-footer {
+  background-color: #4971d0;
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.site-footer ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+
+}
+
+.site-footer ul li {
+display:inline;
+}
+
+.site-footer p {
+font-family: times,serif;
+font-size: 0.75em;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.site-footer ul li a {
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 10px;
+}
